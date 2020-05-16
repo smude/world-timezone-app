@@ -26,6 +26,16 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
+					<cloudHubDeployment>
+						<username>smude3</username>
+						<password>Apisero@2020</password>
+						<applicationName>world-time-api</applicationName>
+						<muleVersion>4.2.2</muleVersion>
+						<environment>Sandbox</environment>
+						<workers>1</workers>
+						<workersType>Micro</workersType>
+						<objectStoreV2>true</objectStoreV2>
+					</cloudHubDeployment>
 				</configuration>
 			</plugin>
 		</plugins>
