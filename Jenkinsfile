@@ -14,7 +14,7 @@ pipeline
 		}
 		stage('Perform Regression Testing'){
 			steps{
-				bat 'newman run C:\\Users\\shubh\\Desktop\\MuleExerciseDocs\\newmanPostman\\worldtimezone.postman_collection.json -r htmlextra --reporter-htmlextra-export C:\\Users\\shubh\\Desktop\\MuleExerciseDocs\\newmanPostman'
+				bat 'C:\\Users\\shubh\\AppData\\Roaming\\npm\\newman run C:\\Users\\shubh\\Desktop\\MuleExerciseDocs\\newmanPostman\\worldtimezone.postman_collection.json -r htmlextra --reporter-htmlextra-export C:\\Users\\shubh\\Desktop\\MuleExerciseDocs\\newmanPostman'
 			}
 		}
 	}
